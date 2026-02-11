@@ -21,7 +21,6 @@ It is meant as a lightweight alternative to apps like Quizlet or Anki, focused s
 ## Features
 
 - Flashcards with spaced repetition
-- 3D flip animation
 - Keyboard shortcuts
 - Search and filtering
 - Typing practice mode
@@ -33,6 +32,8 @@ It is meant as a lightweight alternative to apps like Quizlet or Anki, focused s
 ---
 
 ## How to Use
+
+You will have to download the CSV file with the TOPIK words for the data to show up.
 
 ### Open the App
 
@@ -47,6 +48,9 @@ https://okbettyy.github.io/topik-flashcards/
 Click **Import CSV** and upload your vocabulary file.
 
 Your progress will be saved automatically.
+
+You can press reset to remove your progress.
+! WARNING: All of your progress will be unsaved.
 
 ---
 
@@ -119,10 +123,11 @@ Required columns:
 | 등급   | Level (A/B/C)       |
 | 순위   | Rank / ID          |
 
-Example:
 
-```csv
-순위,단어,풀이,품사,등급
-1,가격01,price,명,A
-2,먹다01,to eat,동,A
-3,빠르다01,fast,형,B
+---
+
+TO DO:
+
+I take requests on how I can better the website.
+Please star this rep if you like it! 
+Appreciate it! 
